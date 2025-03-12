@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicolás Briones - Junior Front-End Developer</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header -->
     <header>
         <div class="container">
             <h1>Nicolás Briones</h1>
-            <p class="subtitle">Junior Front-End Developer</p>
+            <p class="subtitle"><span class="typing"></span></p>
+            <button id="theme-toggle">Toggle Dark Mode</button>
             <nav>
                 <a href="#about">About</a>
                 <a href="#projects">Projects</a>
@@ -25,7 +26,7 @@
     <!-- About Section -->
     <section id="about" class="container">
         <h2>About Me</h2>
-        <p>Hi, I’m Nicolás, a Junior Front-End Developer based in Mexico with over 1 year of experience building web applications using JavaScript, HTML5, and C#. I’m passionate about creating user-friendly interfaces, solving problems, and learning new technologies to deliver high-quality solutions. Let’s build something amazing together!</p>
+        <p>Hey, I’m Nicolás—a Junior Front-End Developer from Mexico with over a year of experience crafting web apps with <strong>JavaScript</strong>, <strong>HTML5</strong>, and <strong>C#</strong>. I thrive on turning ideas into interactive, pixel-perfect experiences. Let’s code the future together!</p>
     </section>
 
     <!-- Projects Section -->
@@ -34,18 +35,53 @@
         <div class="project-grid">
             <div class="project-card">
                 <h3>Task Manager App</h3>
-                <p>A web app to organize tasks, featuring a C# backend and a dynamic JavaScript/HTML5 front-end.</p>
+                <p>A sleek app to manage tasks with a C# backend and a JavaScript-driven front-end.</p>
                 <p><strong>Tech:</strong> C#, JavaScript, HTML5, CSS3, SQL</p>
-                <a href="https://github.com/nicolasbriones21/task-manager" target="_blank">View on GitHub</a>
+                <a href="https://github.com/nicolasbriones21/task-manager" target="_blank">GitHub</a>
             </div>
             <div class="project-card">
                 <h3>Interactive Portfolio</h3>
-                <p>This very site! A responsive portfolio built with modern HTML5, CSS animations, and JavaScript interactivity.</p>
+                <p>This site! A dynamic showcase with animations and modern design.</p>
                 <p><strong>Tech:</strong> HTML5, CSS3, JavaScript</p>
-                <a href="https://github.com/nicolasbriones21/portfolio" target="_blank">View on GitHub</a>
+                <a href="https://github.com/nicolasbriones21/portfolio" target="_blank">GitHub</a>
             </div>
             <div class="project-card">
                 <h3>Weather Widget</h3>
-                <p>A small widget fetching live weather data using JavaScript and an external API, styled with HTML5/CSS.</p>
+                <p>A cool widget pulling live weather data with JavaScript and APIs.</p>
                 <p><strong>Tech:</strong> JavaScript, HTML5, CSS3, APIs</p>
-                <a href="https://github.com/nicolasbriones21/weather-widget
+                <a href="https://github.com/nicolasbriones21/weather-widget" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <span>JavaScript</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>C#</span>
+            <span>SQL Basics</span>
+            <span>Git & GitHub</span>
+            <span>Responsive Design</span>
+            <span>Team Collaboration</span>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:nicolasbriones21@example.com">nicolasbriones21@example.com</a></p>
+        <p>GitHub: <a href="https://github.com/nicolasbriones21" target="_blank">github.com/nicolasbriones21</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/nicolasbriones21" target="_blank">linkedin.com/in/nicolasbriones21</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Nicolás Briones | Built with Code & Creativity</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
